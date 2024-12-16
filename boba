@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Recipes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #ff6347;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        nav {
+            background-color: #ff4500;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .recipe {
+            margin-bottom: 2rem;
+        }
+
+        .recipe h2 {
+            color: #ff6347;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Delicious Recipes</h1>
+        <p>Your go-to place for mouth-watering recipes</p>
+    </header>
+
+    <nav>
+        <a href="#alfredo">Alfredo Pasta</a>
+        <a href="#pizza">Pizza</a>
+        <a href="#tiramisu">Tiramisu</a>
+    </nav>
+
+    <div class="container">
+        <section id="alfredo" class="recipe">
+            <h2>Alfredo Pasta</h2>
+            <p><strong>Ingredients:</strong> Pasta, heavy cream, butter, Parmesan cheese, garlic, salt, and pepper.</p>
+            <p><strong>Instructions:</strong> Cook the pasta. In a pan, melt butter, add garlic, and stir in heavy cream. Add Parmesan cheese, salt, and pepper. Combine with pasta and serve hot.</p>
+        </section>
+
+        <section id="pizza" class="recipe">
+            <h2>Pizza</h2>
+            <p><strong>Ingredients:</strong> Pizza dough, tomato sauce, mozzarella cheese, and your favorite toppings.</p>
+            <p><strong>Instructions:</strong> Roll out the dough, spread tomato sauce, add cheese and toppings. Bake in a preheated oven at 220°C (430°F) for 10-15 minutes.</p>
+        </section>
+
+        <section id="tiramisu" class="recipe">
+            <h2>Tiramisu</h2>
+            <p><strong>Ingredients:</strong> Ladyfingers, espresso, mascarpone cheese, eggs, sugar, cocoa powder.</p>
+            <p><strong>Instructions:</strong> Dip ladyfingers in espresso. Layer them with a mixture of mascarpone, sugar, and whipped eggs. Dust with cocoa powder. Chill for a few hours before serving.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Delicious Recipes. All rights reserved.</p>
+    </footer>
+</body>
+</html>
