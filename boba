@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Recipes</title>
+    <title>traditional italian Recipes</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -127,7 +127,7 @@
     </div>
 
     <footer>
-        <p>&copy; 2024 Interactive Recipes. All rights reserved.</p>
+        <p>&copy; 2024 traditional italian  Recipes.</p>
     </footer>
 
     <script>
